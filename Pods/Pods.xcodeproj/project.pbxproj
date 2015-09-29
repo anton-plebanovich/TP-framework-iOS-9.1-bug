@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3D0895936289185F64465A4D782CAE5B /* PBXContainerItemProxy */ = {
+		E40F33F7F82A6234026395DB092AD5A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -197,7 +197,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E495A6BAB668D54BB4B2143C7CDAAAE5 /* PBXTargetDependency */,
+				E16DEB92722838FD907BB979B74C911C /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
@@ -272,11 +272,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E495A6BAB668D54BB4B2143C7CDAAAE5 /* PBXTargetDependency */ = {
+		E16DEB92722838FD907BB979B74C911C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TPKeyboardAvoiding;
 			target = AF02DE907B5FB497D432BE0E8E56F848 /* TPKeyboardAvoiding */;
-			targetProxy = 3D0895936289185F64465A4D782CAE5B /* PBXContainerItemProxy */;
+			targetProxy = E40F33F7F82A6234026395DB092AD5A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		46D229141699155F3B0610FE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B113713BAAB534D8FDDDF33 /* libPods.a */; };
+		B07EF7811BBA99B2007DF669 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07EF7801BBA99B2007DF669 /* CollectionViewController.m */; };
 		B0BCC9BA1B56519D009DAA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BCC9B91B56519D009DAA5B /* main.m */; };
 		B0BCC9BD1B56519D009DAA5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BCC9BC1B56519D009DAA5B /* AppDelegate.m */; };
 		B0BCC9C31B56519D009DAA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BCC9C11B56519D009DAA5B /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		11DC9CECD0704F776EEC4791 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3B113713BAAB534D8FDDDF33 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B07EF77F1BBA99B2007DF669 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B07EF7801BBA99B2007DF669 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		B0BCC9B41B56519C009DAA5B /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0BCC9B81B56519D009DAA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0BCC9B91B56519D009DAA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				B0BCC9C41B56519D009DAA5B /* Images.xcassets */,
 				B0BCC9C61B56519D009DAA5B /* LaunchScreen.xib */,
 				B0BCC9B71B56519C009DAA5B /* Supporting Files */,
+				B07EF77F1BBA99B2007DF669 /* CollectionViewController.h */,
+				B07EF7801BBA99B2007DF669 /* CollectionViewController.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			files = (
 				B0BCC9BD1B56519D009DAA5B /* AppDelegate.m in Sources */,
 				B0BCC9BA1B56519D009DAA5B /* main.m in Sources */,
+				B07EF7811BBA99B2007DF669 /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

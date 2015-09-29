@@ -2,7 +2,16 @@ PODS:
   - TPKeyboardAvoiding (1.2.9)
 
 DEPENDENCIES:
-  - TPKeyboardAvoiding
+  - TPKeyboardAvoiding (from `https://github.com/michaeltyson/TPKeyboardAvoiding.git`)
+
+EXTERNAL SOURCES:
+  TPKeyboardAvoiding:
+    :git: https://github.com/michaeltyson/TPKeyboardAvoiding.git
+
+CHECKOUT OPTIONS:
+  TPKeyboardAvoiding:
+    :commit: 469f932bba219682b5bb71b8c8a5a419f8ee944b
+    :git: https://github.com/michaeltyson/TPKeyboardAvoiding.git
 
 SPEC CHECKSUMS:
   TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
