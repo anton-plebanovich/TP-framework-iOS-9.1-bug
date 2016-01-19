@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#include "objc/runtime.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,13 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+     
+        void (^block)() = ^{ NSLog(@"%d", 2); };
+    NSLog(@"%@", [block class]);
     
     return YES;
 }
